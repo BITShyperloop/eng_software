@@ -1,0 +1,70 @@
+I-Logix-RPY-Archive version 8.12.0 C++ 9728113
+{ ISubsystem 
+	- _id = GUID 4522ca7c-e78d-42db-9b4e-62171426a1cc;
+	- _myState = 8192;
+	- _name = "NavigationExecutionScopePkg";
+	- _modifiedTimeWeak = 10.2.2016::18:42:16;
+	- weakCGTime = 10.2.2016::18:42:16;
+	- strongCGTime = 10.2.2016::18:42:16;
+	- _defaultComposite = GUID 8ab1bbec-1915-438c-991f-5e396d517d00;
+	- _eventsBaseID = -1;
+	- Classes = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ IClass 
+			- _id = GUID 8ab1bbec-1915-438c-991f-5e396d517d00;
+			- _myState = 40960;
+			- _name = "TopLevel";
+			- _modifiedTimeWeak = 10.2.2016::18:42:16;
+			- weakCGTime = 10.2.2016::18:42:16;
+			- strongCGTime = 1.2.1990::0:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IPart 
+					- _id = GUID b7c0add2-e0d6-416e-a531-b2ba7a6e7c04;
+					- _myState = 8192;
+					- _name = "itsUc_Navigation";
+					- _modifiedTimeWeak = 10.2.2016::18:42:16;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _filename = "NavigationPkg.sbs";
+						- _subsystem = "FunctionalAnalysisPkg::NavigationPkg";
+						- _class = "";
+						- _name = "Uc_Navigation";
+						- _id = GUID 2fb25cdb-f96c-467e-b77f-d156a4c0b879;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+				}
+				{ IPart 
+					- _id = GUID a795705d-81b9-47a3-9e96-3fd5e0ecc199;
+					- _myState = 8192;
+					- _name = "prtHyperloopPod";
+					- _modifiedTimeWeak = 10.2.2016::18:42:16;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IActor";
+						- _filename = "ActorPkg.sbs";
+						- _subsystem = "ActorPkg";
+						- _class = "";
+						- _name = "Hyperloop Pod";
+						- _id = GUID 1d38b08f-b916-42d1-b79e-b20e8966deaa;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+				}
+			}
+			- _classModifier = Unspecified;
+		}
+	}
+	- _configurationRelatedTime = 10.2.2016::18:42:16;
+}
+

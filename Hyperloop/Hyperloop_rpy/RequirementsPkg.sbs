@@ -1,0 +1,30 @@
+I-Logix-RPY-Archive version 8.12.0 C++ 9728113
+{ ISubsystem 
+	- _id = GUID b713159b-a03c-45a5-85f2-59416c9090df;
+	- _myState = 8192;
+	- _name = "RequirementsPkg";
+	- _modifiedTimeWeak = 10.2.2016::16:21:23;
+	- weakCGTime = 10.2.2016::16:21:23;
+	- strongCGTime = 10.2.2016::16:21:23;
+	- _defaultComposite = GUID 006f7910-2272-4065-a9ca-2d519ee74b29;
+	- _eventsBaseID = -1;
+	- Classes = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ IClass 
+			- _id = GUID 006f7910-2272-4065-a9ca-2d519ee74b29;
+			- _myState = 40960;
+			- _name = "TopLevel";
+			- _modifiedTimeWeak = 1.2.1990::0:0:0;
+			- weakCGTime = 1.2.1990::0:0:0;
+			- strongCGTime = 1.2.1990::0:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+	}
+	- _configurationRelatedTime = 1.1.1970::5:30:0;
+}
+

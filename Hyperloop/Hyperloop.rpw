@@ -1,0 +1,154 @@
+I-Logix-RPY-Archive version 8.12.0 * 9728113
+{ CGEMdiWorkspace 
+	- stubList = { IRPYRawContainer 
+		- size = 0;
+	}
+	- isLoadOnDemand = 0;
+	- myViewsWithID = { IRPYRawContainer 
+		- size = 4;
+		- value = 
+		{ CGEMdiDiagramParams 
+			- _placement = { CCommon_WINDOWPLACEMENT 
+				- m_nLength = 44;
+				- m_nFlags = 0;
+				- m_showCmd = 1;
+				- m_ptMinPositionX = -1;
+				- m_ptMinPositionY = -1;
+				- m_ptMaxPositionX = -8;
+				- m_ptMaxPositionY = -30;
+				- m_nLeft = 25;
+				- m_nTop = 25;
+				- m_nRight = 583;
+				- m_nBottom = 558;
+			}
+			- _wasOpenedOnCloseProject = 1;
+			- _theDiagram = { IHandle 
+				- _m2Class = "IActivityDiagram";
+				- _filename = "ArrivalPkg.sbs";
+				- _subsystem = "FunctionalAnalysisPkg::ArrivalPkg";
+				- _class = "Arrival::ArrivalBlackBoxView";
+				- _name = "ActivityDiagram";
+				- _id = GUID b611e386-3764-44dc-9a20-d439bc3352f8;
+			}
+			- _UpLeft = 0 0 ;
+			- _DownRight = 521 474 ;
+			- _instanceName = "";
+			- m_nDiagramIndex = 2;
+			- m_bIsActiveView = 0;
+		}
+		{ CGEMdiDiagramParams 
+			- _placement = { CCommon_WINDOWPLACEMENT 
+				- m_nLength = 44;
+				- m_nFlags = 0;
+				- m_showCmd = 1;
+				- m_ptMinPositionX = -1;
+				- m_ptMinPositionY = -1;
+				- m_ptMaxPositionX = -8;
+				- m_ptMaxPositionY = -30;
+				- m_nLeft = 0;
+				- m_nTop = 0;
+				- m_nRight = 631;
+				- m_nBottom = 533;
+			}
+			- _wasOpenedOnCloseProject = 1;
+			- _theDiagram = { IHandle 
+				- _m2Class = "IActivityDiagram";
+				- _filename = "BrakingPkg.sbs";
+				- _subsystem = "FunctionalAnalysisPkg::BrakingPkg";
+				- _class = "Braking::BrakingBlackBoxView";
+				- _name = "ActivityDiagram";
+				- _id = GUID f283fb7a-8d0c-4c16-9553-ef78180dbfcb;
+			}
+			- _UpLeft = 0 0 ;
+			- _DownRight = 594 474 ;
+			- _instanceName = "";
+			- m_nDiagramIndex = 0;
+			- m_bIsActiveView = 0;
+		}
+		{ CGEMdiDiagramParams 
+			- _placement = { CCommon_WINDOWPLACEMENT 
+				- m_nLength = 44;
+				- m_nFlags = 0;
+				- m_showCmd = 1;
+				- m_ptMinPositionX = -1;
+				- m_ptMinPositionY = -1;
+				- m_ptMaxPositionX = -8;
+				- m_ptMaxPositionY = -30;
+				- m_nLeft = 50;
+				- m_nTop = 50;
+				- m_nRight = 608;
+				- m_nBottom = 583;
+			}
+			- _wasOpenedOnCloseProject = 1;
+			- _theDiagram = { IHandle 
+				- _m2Class = "IActivityDiagram";
+				- _filename = "DeparturePkg.sbs";
+				- _subsystem = "FunctionalAnalysisPkg::DeparturePkg";
+				- _class = "Departure::DepartureBlackBoxView";
+				- _name = "ActivityDiagram";
+				- _id = GUID a5e9c311-ac5e-4394-b8de-383676b47c51;
+			}
+			- _UpLeft = 0 0 ;
+			- _DownRight = 521 474 ;
+			- _instanceName = "";
+			- m_nDiagramIndex = 1;
+			- m_bIsActiveView = 0;
+		}
+		{ CGEMdiDiagramParams 
+			- _placement = { CCommon_WINDOWPLACEMENT 
+				- m_nLength = 44;
+				- m_nFlags = 2;
+				- m_showCmd = 3;
+				- m_ptMinPositionX = -1;
+				- m_ptMinPositionY = -1;
+				- m_ptMaxPositionX = -8;
+				- m_ptMaxPositionY = -30;
+				- m_nLeft = 75;
+				- m_nTop = 75;
+				- m_nRight = 207;
+				- m_nBottom = 663;
+			}
+			- _wasOpenedOnCloseProject = 1;
+			- _theDiagram = { IHandle 
+				- _m2Class = "IUCDiagram";
+				- _filename = "UseCaseDiagramsPkg.sbs";
+				- _subsystem = "RequirementsAnalysisPkg::UseCaseDiagramsPkg";
+				- _class = "";
+				- _name = "UCD_Hyperloop";
+				- _id = GUID 719345fd-345f-44f2-90d0-96cfbf10ba9a;
+			}
+			- _UpLeft = 19 45 ;
+			- _DownRight = 949 658 ;
+			- _instanceName = "";
+			- m_nDiagramIndex = 3;
+			- m_bIsActiveView = 1;
+		}
+	}
+	- _fullName = "C:\\Users\\Dhruv Mahajan\\Desktop\\Rhapsody_eval_8.1.5_Windows_32\\Hyperloop\\Hyperloop";
+	- m_SearchScopeList = { IRPYRawContainer 
+		- size = 0;
+	}
+	- bUsingCustomBrowserView = 0;
+	- bUsingQueries = 0;
+	- bApplyOnDiagrams = 0;
+	- liQueryIDs = { IRPYRawContainer 
+		- size = 0;
+	}
+	- liElementTypes = { IRPYRawContainer 
+		- size = 0;
+	}
+	- mapOslcRmCollections = { IRPYRawContainer 
+		- size = 0;
+	}
+
+	- m_favoritesTree = {
+		count=1;
+		{ - favoritesItem
+			generation = 0;
+			name = Favorites;
+			idOrFolder = folder;
+		}
+	}
+
+}
+

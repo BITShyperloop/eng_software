@@ -1,0 +1,106 @@
+I-Logix-RPY-Archive version 8.12.0 C++ 9728113
+{ ISubsystem 
+	- _id = GUID 6222306e-21e9-4717-a839-1098edc2f8d7;
+	- _myState = 8192;
+	- _name = "CommunicationExecutionScopePkg";
+	- _modifiedTimeWeak = 10.2.2016::18:42:2;
+	- weakCGTime = 10.2.2016::18:42:2;
+	- strongCGTime = 10.2.2016::18:42:2;
+	- _defaultComposite = GUID 1f644e47-9dee-4e1e-8170-fd46183a8d0d;
+	- _eventsBaseID = -1;
+	- Classes = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ IClass 
+			- _id = GUID 1f644e47-9dee-4e1e-8170-fd46183a8d0d;
+			- _myState = 40960;
+			- _name = "TopLevel";
+			- _modifiedTimeWeak = 10.2.2016::18:42:2;
+			- weakCGTime = 10.2.2016::18:42:2;
+			- strongCGTime = 1.2.1990::0:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 4;
+				- value = 
+				{ IPart 
+					- _id = GUID ec050d50-767d-4715-8a1b-8ebfb0e2aa46;
+					- _myState = 8192;
+					- _name = "itsUc_Communication";
+					- _modifiedTimeWeak = 10.2.2016::18:42:2;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _filename = "CommunicationPkg.sbs";
+						- _subsystem = "FunctionalAnalysisPkg::CommunicationPkg";
+						- _class = "";
+						- _name = "Uc_Communication";
+						- _id = GUID a992020c-e3ef-4967-ae86-ff90c7b7e8ff;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+				}
+				{ IPart 
+					- _id = GUID 3ba346da-321a-49e2-829a-05e2cf55ad4b;
+					- _myState = 8192;
+					- _name = "prtHyperloopPod";
+					- _modifiedTimeWeak = 10.2.2016::18:42:2;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IActor";
+						- _filename = "ActorPkg.sbs";
+						- _subsystem = "ActorPkg";
+						- _class = "";
+						- _name = "Hyperloop Pod";
+						- _id = GUID 1d38b08f-b916-42d1-b79e-b20e8966deaa;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+				}
+				{ IPart 
+					- _id = GUID a0a2668b-5ac4-46dc-be51-b15fd5e35249;
+					- _myState = 8192;
+					- _name = "prtGroundStationsoftware";
+					- _modifiedTimeWeak = 10.2.2016::18:42:2;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IActor";
+						- _filename = "ActorPkg.sbs";
+						- _subsystem = "ActorPkg";
+						- _class = "";
+						- _name = "Ground Station software";
+						- _id = GUID 04d135a7-668f-4af5-a13c-b7ec4d0991bf;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+				}
+				{ IPart 
+					- _id = GUID 7bf40b87-f734-4b3f-a642-44c34d04c764;
+					- _myState = 8192;
+					- _name = "prtOtherPods";
+					- _modifiedTimeWeak = 10.2.2016::18:42:2;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IActor";
+						- _filename = "ActorPkg.sbs";
+						- _subsystem = "ActorPkg";
+						- _class = "";
+						- _name = "Other Pods";
+						- _id = GUID 52c38893-f468-411b-b170-fcd0d41949d7;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+				}
+			}
+			- _classModifier = Unspecified;
+		}
+	}
+	- _configurationRelatedTime = 10.2.2016::18:42:2;
+}
+

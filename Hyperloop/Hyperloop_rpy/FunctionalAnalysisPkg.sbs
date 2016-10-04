@@ -1,0 +1,54 @@
+I-Logix-RPY-Archive version 8.12.0 C++ 9728113
+{ ISubsystem 
+	- _id = GUID 8f77d0f5-4334-4f9a-939b-d76840516788;
+	- _myState = 8192;
+	- _name = "FunctionalAnalysisPkg";
+	- _modifiedTimeWeak = 10.2.2016::19:1:58;
+	- Declaratives = { IRPYRawContainer 
+		- size = 5;
+		- value = 
+		{ ISubsystem 
+			- fileName = "CommunicationPkg";
+			- _id = GUID 7360b0bf-a38f-491e-9a8e-d64627543985;
+		}
+		{ ISubsystem 
+			- fileName = "DeparturePkg";
+			- _id = GUID cdd9de0d-2f9b-4e89-8e9b-04e843acf7de;
+		}
+		{ ISubsystem 
+			- fileName = "NavigationPkg";
+			- _id = GUID d6a69c74-443b-496c-9869-14e0041d5d29;
+		}
+		{ ISubsystem 
+			- fileName = "ArrivalPkg";
+			- _id = GUID 61237a99-1612-456d-a558-5305cb64e7e0;
+		}
+		{ ISubsystem 
+			- fileName = "BrakingPkg";
+			- _id = GUID efb25b08-595c-4383-98a3-2b6c04e14c68;
+		}
+	}
+	- weakCGTime = 10.2.2016::19:1:58;
+	- strongCGTime = 10.2.2016::19:1:34;
+	- _defaultComposite = GUID a8e163f3-95b8-439e-b8ca-c71052007005;
+	- _eventsBaseID = -1;
+	- Classes = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ IClass 
+			- _id = GUID a8e163f3-95b8-439e-b8ca-c71052007005;
+			- _myState = 40960;
+			- _name = "TopLevel";
+			- _modifiedTimeWeak = 10.2.2016::19:1:34;
+			- weakCGTime = 10.2.2016::19:1:34;
+			- strongCGTime = 10.2.2016::19:1:34;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+	}
+	- _configurationRelatedTime = 10.2.2016::18:54:9;
+}
+

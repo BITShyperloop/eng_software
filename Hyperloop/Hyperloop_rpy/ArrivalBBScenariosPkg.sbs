@@ -1,0 +1,30 @@
+I-Logix-RPY-Archive version 8.12.0 C++ 9728113
+{ ISubsystem 
+	- _id = GUID b4a930bf-0ce4-4551-b10a-e91fd3e6a80d;
+	- _myState = 8192;
+	- _name = "ArrivalBBScenariosPkg";
+	- _modifiedTimeWeak = 10.2.2016::18:42:24;
+	- weakCGTime = 10.2.2016::18:42:24;
+	- strongCGTime = 10.2.2016::18:42:24;
+	- _defaultComposite = GUID 6395c7b6-6a8f-4d72-8f68-793c197b604d;
+	- _eventsBaseID = -1;
+	- Classes = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ IClass 
+			- _id = GUID 6395c7b6-6a8f-4d72-8f68-793c197b604d;
+			- _myState = 40960;
+			- _name = "TopLevel";
+			- _modifiedTimeWeak = 1.2.1990::0:0:0;
+			- weakCGTime = 1.2.1990::0:0:0;
+			- strongCGTime = 1.2.1990::0:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+	}
+	- _configurationRelatedTime = 1.1.1970::5:30:0;
+}
+

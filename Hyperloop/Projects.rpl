@@ -1,0 +1,38 @@
+I-Logix-RPY-Archive version 8.12.0 C++ 9728113
+{ IWorkspace 
+	- m_SavedActiveProjectsName = "Hyperloop";
+	- _id = GUID 4c944279-8d66-4c87-9496-47268ddf94dc;
+	- _myState = 8192;
+	- _name = "Projects";
+	- _modifiedTimeWeak = 1.2.1990::0:0:0;
+	- Declaratives = { IRPYRawContainer 
+		- size = 5;
+		- value = 
+		{ IProject 
+			- fileName = "Hyperloop";
+			- _persistAs = "C:\\Users\\Dhruv Mahajan\\Desktop\\Rhapsody_eval_8.1.5_Windows_32\\Hyperloop";
+			- _id = GUID 9bb40740-b985-48f4-b961-57c04b9633e2;
+		}
+		{ IProject 
+			- fileName = "cars";
+			- _persistAs = "C:\\Users\\Dhruv Mahajan\\IBM\\Rational\\Rhapsody\\8.1.5\\Samples\\CppSamples\\Cars";
+			- _id = GUID a01e491b-2768-4998-b5ae-cf64fa818885;
+		}
+		{ IProject 
+			- fileName = "elevator";
+			- _persistAs = "C:\\Users\\Dhruv Mahajan\\IBM\\Rational\\Rhapsody\\8.1.5\\Samples\\CppSamples\\Elevator";
+			- _id = GUID be26d523-ae44-4436-934b-34389a448a2f;
+		}
+		{ IProject 
+			- fileName = "pacemaker";
+			- _persistAs = "C:\\Users\\Dhruv Mahajan\\IBM\\Rational\\Rhapsody\\8.1.5\\Samples\\CppSamples\\Pacemaker";
+			- _id = GUID 36050c4c-1800-467b-86aa-d33615fc9835;
+		}
+		{ IProject 
+			- fileName = "HomeAlarm";
+			- _persistAs = "C:\\Users\\Dhruv Mahajan\\IBM\\Rational\\Rhapsody\\8.1.5\\Samples\\CppSamples\\HomeAlarm";
+			- _id = GUID 32db9eaf-1458-4c1b-96a3-ff8cbfff595e;
+		}
+	}
+}
+

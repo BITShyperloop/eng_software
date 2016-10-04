@@ -1,0 +1,70 @@
+I-Logix-RPY-Archive version 8.12.0 C++ 9728113
+{ ISubsystem 
+	- _id = GUID 9dcdbff2-758e-4717-9599-ba565d78dbeb;
+	- _myState = 8192;
+	- _name = "BrakingExecutionScopePkg";
+	- _modifiedTimeWeak = 10.2.2016::19:1:58;
+	- weakCGTime = 10.2.2016::19:1:58;
+	- strongCGTime = 10.2.2016::19:1:58;
+	- _defaultComposite = GUID ad69c46f-f723-464b-b3a0-0d5b087cb792;
+	- _eventsBaseID = -1;
+	- Classes = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ IClass 
+			- _id = GUID ad69c46f-f723-464b-b3a0-0d5b087cb792;
+			- _myState = 40960;
+			- _name = "TopLevel";
+			- _modifiedTimeWeak = 10.2.2016::19:1:58;
+			- weakCGTime = 10.2.2016::19:1:58;
+			- strongCGTime = 1.2.1990::0:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IPart 
+					- _id = GUID 5b0fcb92-7a52-432a-b60f-1773cb16d91c;
+					- _myState = 8192;
+					- _name = "itsUc_Braking";
+					- _modifiedTimeWeak = 10.2.2016::19:1:58;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _filename = "BrakingPkg.sbs";
+						- _subsystem = "FunctionalAnalysisPkg::BrakingPkg";
+						- _class = "";
+						- _name = "Uc_Braking";
+						- _id = GUID e7bf0ab2-03bb-4379-b6aa-aa8bc93e7a55;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+				}
+				{ IPart 
+					- _id = GUID 22223602-53b8-49ae-9b03-63d643f5c576;
+					- _myState = 8192;
+					- _name = "prtHyperloopPod";
+					- _modifiedTimeWeak = 10.2.2016::19:1:58;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IActor";
+						- _filename = "ActorPkg.sbs";
+						- _subsystem = "ActorPkg";
+						- _class = "";
+						- _name = "Hyperloop Pod";
+						- _id = GUID 1d38b08f-b916-42d1-b79e-b20e8966deaa;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+				}
+			}
+			- _classModifier = Unspecified;
+		}
+	}
+	- _configurationRelatedTime = 10.2.2016::19:1:58;
+}
+

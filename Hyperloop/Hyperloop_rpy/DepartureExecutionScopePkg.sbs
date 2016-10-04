@@ -1,0 +1,88 @@
+I-Logix-RPY-Archive version 8.12.0 C++ 9728113
+{ ISubsystem 
+	- _id = GUID 61766cbc-5fad-473c-8334-97bba041c422;
+	- _myState = 8192;
+	- _name = "DepartureExecutionScopePkg";
+	- _modifiedTimeWeak = 10.2.2016::18:42:10;
+	- weakCGTime = 10.2.2016::18:42:10;
+	- strongCGTime = 10.2.2016::18:42:10;
+	- _defaultComposite = GUID bdcde31b-5909-4d5e-8f04-cca4f9ec71e9;
+	- _eventsBaseID = -1;
+	- Classes = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ IClass 
+			- _id = GUID bdcde31b-5909-4d5e-8f04-cca4f9ec71e9;
+			- _myState = 40960;
+			- _name = "TopLevel";
+			- _modifiedTimeWeak = 10.2.2016::18:42:10;
+			- weakCGTime = 10.2.2016::18:42:10;
+			- strongCGTime = 1.2.1990::0:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 3;
+				- value = 
+				{ IPart 
+					- _id = GUID 709e1709-79e9-49d4-a881-f074de266eb5;
+					- _myState = 8192;
+					- _name = "itsUc_Departure";
+					- _modifiedTimeWeak = 10.2.2016::18:42:10;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _filename = "DeparturePkg.sbs";
+						- _subsystem = "FunctionalAnalysisPkg::DeparturePkg";
+						- _class = "";
+						- _name = "Uc_Departure";
+						- _id = GUID 5281d5f5-b8f8-41fa-928b-78141a3b4358;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+				}
+				{ IPart 
+					- _id = GUID 761adfba-7476-4411-bb85-a898c89a5e10;
+					- _myState = 8192;
+					- _name = "prtHyperloopPod";
+					- _modifiedTimeWeak = 10.2.2016::18:42:10;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IActor";
+						- _filename = "ActorPkg.sbs";
+						- _subsystem = "ActorPkg";
+						- _class = "";
+						- _name = "Hyperloop Pod";
+						- _id = GUID 1d38b08f-b916-42d1-b79e-b20e8966deaa;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+				}
+				{ IPart 
+					- _id = GUID db07d1c7-3ab9-4252-9ffd-65813c8f176d;
+					- _myState = 8192;
+					- _name = "prtGroundStation";
+					- _modifiedTimeWeak = 10.2.2016::18:42:10;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IActor";
+						- _filename = "ActorPkg.sbs";
+						- _subsystem = "ActorPkg";
+						- _class = "";
+						- _name = "Ground Station";
+						- _id = GUID b8f03624-7099-4d0c-a40e-02718cca23b0;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+				}
+			}
+			- _classModifier = Unspecified;
+		}
+	}
+	- _configurationRelatedTime = 10.2.2016::18:42:10;
+}
+

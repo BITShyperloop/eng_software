@@ -1,0 +1,432 @@
+I-Logix-RPY-Archive version 8.12.0 C++ 9728113
+{ ISubsystem 
+	- _id = GUID 5a8e315d-60e3-44be-9b7a-5222dfe4b9e8;
+	- _myState = 8192;
+	- _properties = { IPropertyContainer 
+		- Subjects = { IRPYRawContainer 
+			- size = 2;
+			- value = 
+			{ IPropertySubject 
+				- _Name = "CG";
+				- Metaclasses = { IRPYRawContainer 
+					- size = 1;
+					- value = 
+					{ IPropertyMetaclass 
+						- _Name = "Relation";
+						- Properties = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IProperty 
+								- _Name = "Generate";
+								- _Value = "False";
+								- _Type = Bool;
+							}
+						}
+					}
+				}
+			}
+			{ IPropertySubject 
+				- _Name = "WebComponents";
+				- Metaclasses = { IRPYRawContainer 
+					- size = 1;
+					- value = 
+					{ IPropertyMetaclass 
+						- _Name = "Event";
+						- Properties = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IProperty 
+								- _Name = "WebManaged";
+								- _Value = "True";
+								- _Type = Bool;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	- _name = "ActorPkg";
+	- _modifiedTimeWeak = 10.2.2016::18:42:10;
+	- weakCGTime = 10.2.2016::18:42:10;
+	- strongCGTime = 10.2.2016::17:39:59;
+	- _defaultComposite = GUID b2c1e78f-132f-4997-91e5-d815465b2581;
+	- _eventsBaseID = -1;
+	- Classes = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ IClass 
+			- _id = GUID b2c1e78f-132f-4997-91e5-d815465b2581;
+			- _myState = 40960;
+			- _name = "TopLevel";
+			- _modifiedTimeWeak = 10.2.2016::16:21:23;
+			- weakCGTime = 10.2.2016::16:21:23;
+			- strongCGTime = 10.2.2016::16:21:23;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+	}
+	- Actors = { IRPYRawContainer 
+		- size = 4;
+		- value = 
+		{ IActor 
+			- _id = GUID 1d38b08f-b916-42d1-b79e-b20e8966deaa;
+			- _myState = 8192;
+			- _name = "Hyperloop Pod";
+			- _modifiedTimeWeak = 10.2.2016::19:2:34;
+			- weakCGTime = 10.2.2016::19:2:34;
+			- strongCGTime = 10.2.2016::18:40:55;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 7;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID 2c1a2f9e-783b-4054-887d-07edcc21d006;
+					- _myState = 10240;
+					- _name = "itsArrival";
+					- _modifiedTimeWeak = 1.2.1990::0:0:0;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IUseCase";
+						- _filename = "ArrivalPkg.sbs";
+						- _subsystem = "FunctionalAnalysisPkg::ArrivalPkg";
+						- _class = "";
+						- _name = "Arrival";
+						- _id = GUID d7623aef-a62d-4622-a0e5-11a0052b58a3;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _filename = "ArrivalPkg.sbs";
+						- _subsystem = "FunctionalAnalysisPkg::ArrivalPkg";
+						- _class = "Arrival";
+						- _name = "itsHyperloop Pod";
+						- _id = GUID fb3baa87-acc1-431b-88f8-742cce549a94;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID ecad39ff-d6b3-4c87-89c9-4895aebe0268;
+					- _myState = 10240;
+					- _name = "itsDeparture";
+					- _modifiedTimeWeak = 1.2.1990::0:0:0;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IUseCase";
+						- _filename = "DeparturePkg.sbs";
+						- _subsystem = "FunctionalAnalysisPkg::DeparturePkg";
+						- _class = "";
+						- _name = "Departure";
+						- _id = GUID f7873ba2-f5db-474b-a815-12afc291b919;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _filename = "DeparturePkg.sbs";
+						- _subsystem = "FunctionalAnalysisPkg::DeparturePkg";
+						- _class = "Departure";
+						- _name = "itsHyperloop Pod";
+						- _id = GUID 1c7e85fb-8170-4aa3-9014-60839652c8e3;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID cdb34d09-4b7e-45aa-b4e4-c8116b16a69e;
+					- _myState = 10240;
+					- _name = "itsCommunication";
+					- _modifiedTimeWeak = 1.2.1990::0:0:0;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IUseCase";
+						- _filename = "CommunicationPkg.sbs";
+						- _subsystem = "FunctionalAnalysisPkg::CommunicationPkg";
+						- _class = "";
+						- _name = "Communication";
+						- _id = GUID 18f46f0d-5283-4134-a1ce-285e1cdd9b66;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _filename = "CommunicationPkg.sbs";
+						- _subsystem = "FunctionalAnalysisPkg::CommunicationPkg";
+						- _class = "Communication";
+						- _name = "itsHyperloop Pod";
+						- _id = GUID 3e35f236-e730-4475-91c2-fb19642c8df1;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 4ef3b1e8-fccc-4018-9182-0b8a45b12447;
+					- _myState = 10240;
+					- _name = "itsNavigation";
+					- _modifiedTimeWeak = 1.2.1990::0:0:0;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IUseCase";
+						- _filename = "NavigationPkg.sbs";
+						- _subsystem = "FunctionalAnalysisPkg::NavigationPkg";
+						- _class = "";
+						- _name = "Navigation";
+						- _id = GUID 57c68146-7218-42e0-930c-8c0af60c7969;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _filename = "NavigationPkg.sbs";
+						- _subsystem = "FunctionalAnalysisPkg::NavigationPkg";
+						- _class = "Navigation";
+						- _name = "itsHyperloop Pod";
+						- _id = GUID bbc526d9-9e0a-4dd8-980a-44c72896c819;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 1a9bbcd7-c4ac-472e-9ba3-ad82fa76d6b0;
+					- _myState = 10240;
+					- _name = "itsBraking";
+					- _modifiedTimeWeak = 1.2.1990::0:0:0;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IUseCase";
+						- _filename = "BrakingPkg.sbs";
+						- _subsystem = "FunctionalAnalysisPkg::BrakingPkg";
+						- _class = "";
+						- _name = "Braking";
+						- _id = GUID 01f2af5b-98ee-4e8e-aed7-04a72e29e4f0;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _filename = "BrakingPkg.sbs";
+						- _subsystem = "FunctionalAnalysisPkg::BrakingPkg";
+						- _class = "Braking";
+						- _name = "itsHyperloop Pod";
+						- _id = GUID 57d0d1a5-5680-4ef7-911a-5fa3edf55883;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 55d76564-8c0d-4bdb-b0e6-796a65256c3a;
+					- _myState = 10240;
+					- _name = "itsAcceleration";
+					- _modifiedTimeWeak = 1.2.1990::0:0:0;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IUseCase";
+						- _filename = "UseCaseDiagramsPkg.sbs";
+						- _subsystem = "RequirementsAnalysisPkg::UseCaseDiagramsPkg";
+						- _class = "";
+						- _name = "Acceleration";
+						- _id = GUID 152f8392-564f-428a-9284-2e479700ee3e;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _filename = "UseCaseDiagramsPkg.sbs";
+						- _subsystem = "RequirementsAnalysisPkg::UseCaseDiagramsPkg";
+						- _class = "Acceleration";
+						- _name = "itsHyperloop Pod";
+						- _id = GUID 9823b3ab-9f41-4cb5-8630-6fb2199e8957;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID febdb728-9027-4f46-914d-b7913f271299;
+					- _myState = 10240;
+					- _name = "itsCruising";
+					- _modifiedTimeWeak = 1.2.1990::0:0:0;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IUseCase";
+						- _filename = "UseCaseDiagramsPkg.sbs";
+						- _subsystem = "RequirementsAnalysisPkg::UseCaseDiagramsPkg";
+						- _class = "";
+						- _name = "Cruising";
+						- _id = GUID 330a32c5-c424-46c2-9238-62060f9ed778;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _filename = "UseCaseDiagramsPkg.sbs";
+						- _subsystem = "RequirementsAnalysisPkg::UseCaseDiagramsPkg";
+						- _class = "Cruising";
+						- _name = "itsHyperloop Pod";
+						- _id = GUID 5d50e85e-bd28-4d26-ae49-ec4e5ffb7322;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IActor 
+			- _id = GUID 04d135a7-668f-4af5-a13c-b7ec4d0991bf;
+			- _myState = 8192;
+			- _name = "Ground Station software";
+			- _modifiedTimeWeak = 10.2.2016::18:42:2;
+			- weakCGTime = 10.2.2016::18:42:2;
+			- strongCGTime = 10.2.2016::18:42:2;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID 75f48567-199e-47cb-99aa-19936fcdb2da;
+					- _myState = 10240;
+					- _name = "itsCommunication";
+					- _modifiedTimeWeak = 1.2.1990::0:0:0;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IUseCase";
+						- _filename = "CommunicationPkg.sbs";
+						- _subsystem = "FunctionalAnalysisPkg::CommunicationPkg";
+						- _class = "";
+						- _name = "Communication";
+						- _id = GUID 18f46f0d-5283-4134-a1ce-285e1cdd9b66;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _filename = "CommunicationPkg.sbs";
+						- _subsystem = "FunctionalAnalysisPkg::CommunicationPkg";
+						- _class = "Communication";
+						- _name = "itsGround Station software";
+						- _id = GUID 63417ed4-fe99-4ff2-9127-df6a78759131;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IActor 
+			- _id = GUID 52c38893-f468-411b-b170-fcd0d41949d7;
+			- _myState = 8192;
+			- _name = "Other Pods";
+			- _modifiedTimeWeak = 10.2.2016::18:42:2;
+			- weakCGTime = 10.2.2016::18:42:2;
+			- strongCGTime = 10.2.2016::18:42:2;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID 6211b5f6-b5d6-4aea-b0d5-472c3564dfb2;
+					- _myState = 10240;
+					- _name = "itsCommunication";
+					- _modifiedTimeWeak = 1.2.1990::0:0:0;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IUseCase";
+						- _filename = "CommunicationPkg.sbs";
+						- _subsystem = "FunctionalAnalysisPkg::CommunicationPkg";
+						- _class = "";
+						- _name = "Communication";
+						- _id = GUID 18f46f0d-5283-4134-a1ce-285e1cdd9b66;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _filename = "CommunicationPkg.sbs";
+						- _subsystem = "FunctionalAnalysisPkg::CommunicationPkg";
+						- _class = "Communication";
+						- _name = "itsOther Pods";
+						- _id = GUID 652ae9ab-72fb-478b-a290-75854d5d1630;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IActor 
+			- _id = GUID b8f03624-7099-4d0c-a40e-02718cca23b0;
+			- _myState = 8192;
+			- _name = "Ground Station";
+			- _modifiedTimeWeak = 10.2.2016::18:42:10;
+			- weakCGTime = 10.2.2016::18:42:10;
+			- strongCGTime = 10.2.2016::18:42:10;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID 257cf248-2472-4117-8382-36251bc6c8c8;
+					- _myState = 10240;
+					- _name = "itsArrival";
+					- _modifiedTimeWeak = 1.2.1990::0:0:0;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IUseCase";
+						- _filename = "ArrivalPkg.sbs";
+						- _subsystem = "FunctionalAnalysisPkg::ArrivalPkg";
+						- _class = "";
+						- _name = "Arrival";
+						- _id = GUID d7623aef-a62d-4622-a0e5-11a0052b58a3;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _filename = "ArrivalPkg.sbs";
+						- _subsystem = "FunctionalAnalysisPkg::ArrivalPkg";
+						- _class = "Arrival";
+						- _name = "itsGround Station";
+						- _id = GUID ac9472df-1de1-4806-bb4f-17ee8b35fcbc;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 088afc10-b92a-47ae-87c0-b8bfeb78122a;
+					- _myState = 10240;
+					- _name = "itsDeparture";
+					- _modifiedTimeWeak = 1.2.1990::0:0:0;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IUseCase";
+						- _filename = "DeparturePkg.sbs";
+						- _subsystem = "FunctionalAnalysisPkg::DeparturePkg";
+						- _class = "";
+						- _name = "Departure";
+						- _id = GUID f7873ba2-f5db-474b-a815-12afc291b919;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _filename = "DeparturePkg.sbs";
+						- _subsystem = "FunctionalAnalysisPkg::DeparturePkg";
+						- _class = "Departure";
+						- _name = "itsGround Station";
+						- _id = GUID d8c70917-9aff-4891-b5e2-bf092c7d3311;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
+			- _classModifier = Unspecified;
+		}
+	}
+	- _configurationRelatedTime = 1.2.1990::0:0:0;
+}
+
