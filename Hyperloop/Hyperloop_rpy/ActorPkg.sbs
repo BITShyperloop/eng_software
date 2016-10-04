@@ -47,8 +47,8 @@ I-Logix-RPY-Archive version 8.12.0 C++ 9728113
 		}
 	}
 	- _name = "ActorPkg";
-	- _modifiedTimeWeak = 10.2.2016::18:42:10;
-	- weakCGTime = 10.2.2016::18:42:10;
+	- _modifiedTimeWeak = 10.4.2016::17:14:2;
+	- weakCGTime = 10.4.2016::17:14:2;
 	- strongCGTime = 10.2.2016::17:39:59;
 	- _defaultComposite = GUID b2c1e78f-132f-4997-91e5-d815465b2581;
 	- _eventsBaseID = -1;
@@ -59,9 +59,9 @@ I-Logix-RPY-Archive version 8.12.0 C++ 9728113
 			- _id = GUID b2c1e78f-132f-4997-91e5-d815465b2581;
 			- _myState = 40960;
 			- _name = "TopLevel";
-			- _modifiedTimeWeak = 10.2.2016::16:21:23;
-			- weakCGTime = 10.2.2016::16:21:23;
-			- strongCGTime = 10.2.2016::16:21:23;
+			- _modifiedTimeWeak = 10.2.2016::18:42:10;
+			- weakCGTime = 10.2.2016::18:42:10;
+			- strongCGTime = 10.2.2016::17:39:59;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
 				- _m2Class = "";
@@ -76,15 +76,15 @@ I-Logix-RPY-Archive version 8.12.0 C++ 9728113
 			- _id = GUID 1d38b08f-b916-42d1-b79e-b20e8966deaa;
 			- _myState = 8192;
 			- _name = "Hyperloop Pod";
-			- _modifiedTimeWeak = 10.2.2016::19:2:34;
-			- weakCGTime = 10.2.2016::19:2:34;
+			- _modifiedTimeWeak = 10.4.2016::17:14:9;
+			- weakCGTime = 10.4.2016::17:14:9;
 			- strongCGTime = 10.2.2016::18:40:55;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
 				- _m2Class = "";
 			}
 			- Associations = { IRPYRawContainer 
-				- size = 7;
+				- size = 9;
 				- value = 
 				{ IAssociationEnd 
 					- _id = GUID 2c1a2f9e-783b-4054-887d-07edcc21d006;
@@ -263,6 +263,58 @@ I-Logix-RPY-Archive version 8.12.0 C++ 9728113
 						- _class = "Cruising";
 						- _name = "itsHyperloop Pod";
 						- _id = GUID 5d50e85e-bd28-4d26-ae49-ec4e5ffb7322;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 52919dd8-0b45-4a07-988c-97e63376bb65;
+					- _myState = 10240;
+					- _name = "itsAttitude control";
+					- _modifiedTimeWeak = 1.2.1990::0:0:0;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IUseCase";
+						- _filename = "UseCaseDiagramsPkg.sbs";
+						- _subsystem = "RequirementsAnalysisPkg::UseCaseDiagramsPkg";
+						- _class = "";
+						- _name = "Attitude control";
+						- _id = GUID e7faa6ca-ca80-459b-893b-745f0fc7fe46;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _filename = "UseCaseDiagramsPkg.sbs";
+						- _subsystem = "RequirementsAnalysisPkg::UseCaseDiagramsPkg";
+						- _class = "Attitude control";
+						- _name = "itsHyperloop Pod";
+						- _id = GUID 312bf66e-9efa-437d-b206-4c273631ec7a;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 155b2347-f1eb-43db-990c-eced1e73190b;
+					- _myState = 10240;
+					- _name = "itsEnvironment control";
+					- _modifiedTimeWeak = 1.2.1990::0:0:0;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IUseCase";
+						- _filename = "UseCaseDiagramsPkg.sbs";
+						- _subsystem = "RequirementsAnalysisPkg::UseCaseDiagramsPkg";
+						- _class = "";
+						- _name = "Environment control";
+						- _id = GUID a8805227-983e-43c3-b472-9f096900cbe1;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _filename = "UseCaseDiagramsPkg.sbs";
+						- _subsystem = "RequirementsAnalysisPkg::UseCaseDiagramsPkg";
+						- _class = "Environment control";
+						- _name = "itsHyperloop Pod";
+						- _id = GUID 183f0fe7-d401-414e-bb8d-0f5df64322d6;
 					}
 					- _linkName = "";
 					- _linkType = Assoc;
